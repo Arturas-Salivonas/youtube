@@ -13,7 +13,7 @@ function show_my_videos(data){
 }
 $.ajax({
 	type: "GET",
-	url: "http://gdata.youtube.com/feeds/users/GrowthEngineer/uploads?alt=json-in-script&format=5",
+	url: "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails%2Cstatus&maxResults=5&playlistId=UUTI5S0PqpgB0DbYgcgRU6QQ&key=AIzaSyAYqrh_EYmrdVwK2Zhm_QuzHemzVJmGWXw",
 	cache: false,
 	dataType:'jsonp',
 	success: function(data){

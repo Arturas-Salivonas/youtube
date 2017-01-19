@@ -229,7 +229,7 @@ footer .copyright {
     display: inline-block;
     width: 120px;
     margin-right: 2em;
-    padding:0.3em;
+    padding: 0.3em;
 }
 
 .site-heading {
@@ -361,14 +361,14 @@ footer .copyright {
 }
 
 .subscribe {
-  margin-bottom: 3em;
-  min-height: 200px;
-  padding-top: 3em;
-  position: relative;
-  background-attachment: fixed;
-  background-image: url(http://www.growthengineering.co.uk/wp-content/uploads/2014/12/About-GE-Banner-v3-4-16.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    margin-bottom: 3em;
+    min-height: 200px;
+    padding-top: 3em;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url(http://www.growthengineering.co.uk/wp-content/uploads/2014/12/About-GE-Banner-v3-4-16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .subscribe:before {
@@ -660,7 +660,7 @@ footer .copyright {
     .subscribe button {
         width: 32%
     }
-    ::-webkit-input-placeholder {
+     ::-webkit-input-placeholder {
         color: #fff
     }
     .navbar-brand {
@@ -671,9 +671,8 @@ footer .copyright {
     }
 }
 
-
-.youtubelist iframe{
-  width:100%;
-  height:250px !important;
-  border:none;
+.youtubelist iframe {
+    width: 100%;
+    height: 250px !important;
+    border: none;
 }

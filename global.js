@@ -23,8 +23,7 @@ $(document).ready(function(){
 						function(data){
 							var output;
 								$.each(data.items, function(i, item){
-									console.log(item);
-									videoTitle = item.snippet.title;
+									console.log(item);						
 									videoId = item.snippet.resourceId.videoId;
 									output = '<li><iframe src=\"//www.youtube.com/embed/'+videoId+'\"></iframe></li>';
 

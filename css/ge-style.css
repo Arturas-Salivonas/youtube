@@ -670,3 +670,9 @@ footer .copyright {
         bottom: 1em
     }
 }
+
+
+.youtubelist iframe{
+  width:100%;
+  height:250px !important;
+}

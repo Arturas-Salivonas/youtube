@@ -18,7 +18,7 @@ $(document).ready(function(){
 					"https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=GrowthEngineer&key=AIzaSyAYqrh_EYmrdVwK2Zhm_QuzHemzVJmGWXw",{
 						part: 'snippet',
 						maxResults: 10,
-						playlistId: pid
+						playlistId: pid,
 						key: 'AIzaSyAYqrh_EYmrdVwK2Zhm_QuzHemzVJmGWXw'},
 						function(data){
 							var output;

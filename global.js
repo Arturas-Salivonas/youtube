@@ -1,7 +1,7 @@
 var channelName = 'GrowthEngineer';
 $(document).ready(function(){
 	$.get(
-		"https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=GrowthEngineer&key=AIzaSyAYqrh_EYmrdVwK2Zhm_QuzHemzVJmGWXw",{
+		"https://www.googleapis.com/youtube/v3/channels",{
 			part: 'contentDetails',
 			forUsername: channelName,
 			key: 'AIzaSyAYqrh_EYmrdVwK2Zhm_QuzHemzVJmGWXw'},
@@ -15,7 +15,7 @@ $(document).ready(function(){
 			);
 			function getVids(pid){
 				$.get(
-					"https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=GrowthEngineer&key=AIzaSyAYqrh_EYmrdVwK2Zhm_QuzHemzVJmGWXw",{
+					"https://www.googleapis.com/youtube/v3/playlistItems",{
 						part: 'snippet',
 						maxResults: 10,
 						playlistId: pid,

@@ -25,7 +25,7 @@ $(document).ready(function(){
 								$.each(data.items, function(i, item){
 									console.log(item);
 									videoTitle = item.snippet.title;
-									output = '<li>+videoTitle+</li>';
+									output = '<li>'+videoTitle+'</li>';
 
 									$('#results').append(output);
 								})

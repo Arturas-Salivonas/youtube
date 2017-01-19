@@ -23,9 +23,9 @@ $(document).ready(function(){
 						function(data){
 							var output;
 								$.each(data.items, function(i, item){
-									console.log(item);						
+									console.log(item);
 									videoId = item.snippet.resourceId.videoId;
-									output = '<li><iframe src=\"//www.youtube.com/embed/'+videoId+'\"></iframe></li>';
+									output = '<div class="col-lg-6 col-md-6 article wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;" ><iframe src=\"//www.youtube.com/embed/'+videoId+'\"></iframe></div>';
 
 									$('#results').append(output);
 								})
